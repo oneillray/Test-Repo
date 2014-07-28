@@ -1,0 +1,1545 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html class="   ">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    
+    <title>h5bp/html5-boilerplate · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png" />
+    <meta property="fb:app_id" content="1401488693436528"/>
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="h5bp/html5-boilerplate" name="twitter:title" /><meta content="html5-boilerplate - A professional front-end template for building fast, robust, and adaptable web apps or sites." name="twitter:description" /><meta content="https://avatars1.githubusercontent.com/u/1136800?s=400" name="twitter:image:src" />
+<meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars1.githubusercontent.com/u/1136800?s=400" property="og:image" /><meta content="h5bp/html5-boilerplate" property="og:title" /><meta content="https://github.com/h5bp/html5-boilerplate" property="og:url" /><meta content="html5-boilerplate - A professional front-end template for building fast, robust, and adaptable web apps or sites." property="og:description" />
+
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    <link rel="conduit-xhr" href="https://ghconduit.com:25035">
+    
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="selected-link" value="repo_source" data-pjax-transient />
+      <meta name="google-analytics" content="UA-3769691-2">
+
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="0ECA72F5:2241:96B6BB3:53D58484" name="octolytics-dimension-request_id" />
+    
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico" />
+
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="Fmv87F+6RtrWaQbsHLV+25uxiSFA7EIZ7OKIFoYp2vaxeDdvwMO7xiO0rwyu3+BZ3urqU/8NktzbVPoqXoVoGw==" name="csrf-token" />
+
+    <link href="https://assets-cdn.github.com/assets/github-e566e7b07e7958944b683532d7998f0266da0b30.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://assets-cdn.github.com/assets/github2-9c0bb0bec040471a7882f7ee26423696218b5373.css" media="all" rel="stylesheet" type="text/css" />
+    
+
+
+    <meta http-equiv="x-pjax-version" content="c8c797c07ac4c840f305214b7ec892f8">
+
+      
+  <meta name="description" content="html5-boilerplate - A professional front-end template for building fast, robust, and adaptable web apps or sites." />
+
+
+  <meta content="1136800" name="octolytics-dimension-user_id" /><meta content="h5bp" name="octolytics-dimension-user_login" /><meta content="486550" name="octolytics-dimension-repository_id" /><meta content="h5bp/html5-boilerplate" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="486550" name="octolytics-dimension-repository_network_root_id" /><meta content="h5bp/html5-boilerplate" name="octolytics-dimension-repository_network_root_nwo" />
+
+  <link href="https://github.com/h5bp/html5-boilerplate/commits/master.atom" rel="alternate" title="Recent Commits to html5-boilerplate:master" type="application/atom+xml" />
+
+  </head>
+
+
+  <body class="logged_out  env-production  vis-public">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div class="wrapper">
+      
+      
+      
+      
+
+
+      
+      <div class="header header-logged-out">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions">
+        <a class="button primary" href="/join">Sign up</a>
+      <a class="button signin" href="/login?return_to=%2Fh5bp%2Fhtml5-boilerplate">Sign in</a>
+    </div>
+
+    <div class="command-bar js-command-bar  in-repository">
+
+      <ul class="top-nav">
+          <li class="explore"><a href="/explore">Explore</a></li>
+          <li class="features"><a href="/features">Features</a></li>
+          <li class="enterprise"><a href="https://enterprise.github.com/">Enterprise</a></li>
+          <li class="blog"><a href="/blog">Blog</a></li>
+      </ul>
+        <form accept-charset="UTF-8" action="/search" class="command-bar-form" id="top_search_form" method="get">
+
+<div class="commandbar">
+  <span class="message"></span>
+  <input type="text" data-hotkey="s, /" name="q" id="js-command-bar-field" placeholder="Search or type a command" tabindex="1" autocapitalize="off"
+    
+    
+    data-repo="h5bp/html5-boilerplate"
+  >
+  <div class="display hidden"></div>
+</div>
+
+    <input type="hidden" name="nwo" value="h5bp/html5-boilerplate" />
+
+    <div class="select-menu js-menu-container js-select-menu search-context-select-menu">
+      <span class="minibutton select-menu-button js-menu-target" role="button" aria-haspopup="true">
+        <span class="js-select-button">This repository</span>
+      </span>
+
+      <div class="select-menu-modal-holder js-menu-content js-navigation-container" aria-hidden="true">
+        <div class="select-menu-modal">
+
+          <div class="select-menu-item js-navigation-item js-this-repository-navigation-item selected">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" class="js-search-this-repository" name="search_target" value="repository" checked="checked" />
+            <div class="select-menu-item-text js-select-button-text">This repository</div>
+          </div> <!-- /.select-menu-item -->
+
+          <div class="select-menu-item js-navigation-item js-all-repositories-navigation-item">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" name="search_target" value="global" />
+            <div class="select-menu-item-text js-select-button-text">All repositories</div>
+          </div> <!-- /.select-menu-item -->
+
+        </div>
+      </div>
+    </div>
+
+  <span class="help tooltipped tooltipped-s" aria-label="Show command bar help">
+    <span class="octicon octicon-question"></span>
+  </span>
+
+
+  <input type="hidden" name="ref" value="cmdform">
+
+</form>
+    </div>
+
+  </div>
+</div>
+
+
+
+      <div id="start-of-content" class="accessibility-aid"></div>
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    <div id="js-flash-container">
+      
+    </div>
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+        
+<ul class="pagehead-actions">
+
+
+  <li>
+      <a href="/login?return_to=%2Fh5bp%2Fhtml5-boilerplate"
+    class="minibutton with-count star-button tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <span class="octicon octicon-star"></span>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/h5bp/html5-boilerplate/stargazers">
+      26,128
+    </a>
+
+  </li>
+
+    <li>
+      <a href="/login?return_to=%2Fh5bp%2Fhtml5-boilerplate"
+        class="minibutton with-count js-toggler-target fork-button tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-repo-forked"></span>
+        Fork
+      </a>
+      <a href="/h5bp/html5-boilerplate/network" class="social-count">
+        6,876
+      </a>
+    </li>
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author"><a href="/h5bp" class="url fn" itemprop="url" rel="author"><span itemprop="title">h5bp</span></a></span><!--
+       --><span class="path-divider">/</span><!--
+       --><strong><a href="/h5bp/html5-boilerplate" class="js-current-repository js-repo-home-link">html5-boilerplate</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline js-new-discussion-timeline with-full-navigation ">
+        <div class="repository-sidebar clearfix">
+            
+
+<div class="sunken-menu vertical-right repo-nav js-repo-nav js-repository-container-pjax js-octicon-loaders" data-issue-count-url="/h5bp/html5-boilerplate/issues/counts">
+  <div class="sunken-menu-contents">
+    <ul class="sunken-menu-group">
+      <li class="tooltipped tooltipped-w" aria-label="Code">
+        <a href="/h5bp/html5-boilerplate" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-hotkey="g c" data-pjax="true" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /h5bp/html5-boilerplate">
+          <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+        <li class="tooltipped tooltipped-w" aria-label="Issues">
+          <a href="/h5bp/html5-boilerplate/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /h5bp/html5-boilerplate/issues">
+            <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+            <span class="js-issue-replace-counter"></span>
+            <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Pull Requests">
+        <a href="/h5bp/html5-boilerplate/pulls" aria-label="Pull Requests" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-hotkey="g p" data-selected-links="repo_pulls /h5bp/html5-boilerplate/pulls">
+            <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull Requests</span>
+            <span class="js-pull-replace-counter"></span>
+            <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+
+        <li class="tooltipped tooltipped-w" aria-label="Wiki">
+          <a href="/h5bp/html5-boilerplate/wiki" aria-label="Wiki" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-hotkey="g w" data-selected-links="repo_wiki /h5bp/html5-boilerplate/wiki">
+            <span class="octicon octicon-book"></span> <span class="full-word">Wiki</span>
+            <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+    </ul>
+    <div class="sunken-menu-separator"></div>
+    <ul class="sunken-menu-group">
+
+      <li class="tooltipped tooltipped-w" aria-label="Pulse">
+        <a href="/h5bp/html5-boilerplate/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="pulse /h5bp/html5-boilerplate/pulse">
+          <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Graphs">
+        <a href="/h5bp/html5-boilerplate/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="repo_graphs repo_contributors /h5bp/html5-boilerplate/graphs">
+          <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+    </ul>
+
+
+  </div>
+</div>
+
+              <div class="only-with-full-nav">
+                
+
+  
+
+<div class="clone-url open"
+  data-protocol-type="http"
+  data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">
+  <h3><strong>HTTPS</strong> clone URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/h5bp/html5-boilerplate.git" readonly="readonly">
+    <span class="url-box-clippy">
+    <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="https://github.com/h5bp/html5-boilerplate.git" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+
+<div class="clone-url "
+  data-protocol-type="subversion"
+  data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone">
+  <h3><strong>Subversion</strong> checkout URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/h5bp/html5-boilerplate" readonly="readonly">
+    <span class="url-box-clippy">
+    <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="https://github.com/h5bp/html5-boilerplate" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+<p class="clone-options">You can clone with
+      <a href="#" class="js-clone-selector" data-protocol="http">HTTPS</a>
+      or <a href="#" class="js-clone-selector" data-protocol="subversion">Subversion</a>.
+  <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+    <span class="octicon octicon-question"></span>
+  </a>
+</p>
+
+
+
+                <a href="/h5bp/html5-boilerplate/archive/master.zip"
+                   class="minibutton sidebar-button"
+                   aria-label="Download h5bp/html5-boilerplate as a zip file"
+                   title="Download h5bp/html5-boilerplate as a zip file"
+                   rel="nofollow">
+                  <span class="octicon octicon-cloud-download"></span>
+                  Download ZIP
+                </a>
+              </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+          
+
+<span id="js-show-full-navigation"></span>
+
+<div class="repository-meta js-details-container ">
+    <div class="repository-description">
+      <p>A professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
+    </div>
+
+    <div class="repository-website">
+      <p><a href="http://html5boilerplate.com/" rel="nofollow">http://html5boilerplate.com/</a></p>
+    </div>
+
+
+</div>
+
+<div class="capped-box overall-summary ">
+
+  <div class="stats-switcher-viewport js-stats-switcher-viewport">
+    <div class="stats-switcher-wrapper">
+    <ul class="numbers-summary">
+      <li class="commits">
+        <a data-pjax href="/h5bp/html5-boilerplate/commits/master">
+            <span class="num">
+              <span class="octicon octicon-history"></span>
+              1,341
+            </span>
+            commits
+        </a>
+      </li>
+      <li>
+        <a data-pjax href="/h5bp/html5-boilerplate/branches">
+          <span class="num">
+            <span class="octicon octicon-git-branch"></span>
+            3
+          </span>
+          branches
+        </a>
+      </li>
+
+      <li>
+        <a data-pjax href="/h5bp/html5-boilerplate/releases">
+          <span class="num">
+            <span class="octicon octicon-tag"></span>
+            24
+          </span>
+          releases
+        </a>
+      </li>
+
+      <li>
+        
+  <a href="/h5bp/html5-boilerplate/graphs/contributors">
+    <span class="num">
+      <span class="octicon octicon-organization"></span>
+      176
+    </span>
+    contributors
+  </a>
+      </li>
+    </ul>
+
+      <div class="repository-lang-stats">
+        <ol class="repository-lang-stats-numbers">
+          <li>
+              <a href="/h5bp/html5-boilerplate/search?l=css">
+                <span class="color-block language-color" style="background-color:#563d7c;"></span>
+                <span class="lang">CSS</span>
+                <span class="percent">94.6%</span>
+              </a>
+          </li>
+          <li>
+              <a href="/h5bp/html5-boilerplate/search?l=javascript">
+                <span class="color-block language-color" style="background-color:#f1e05a;"></span>
+                <span class="lang">JavaScript</span>
+                <span class="percent">5.4%</span>
+              </a>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  <div class="tooltipped tooltipped-s" aria-label="Show language statistics">
+    <a href="#"
+     class="repository-lang-stats-graph js-toggle-lang-stats"
+     style="background-color:#f1e05a">
+  <span class="language-color" style="width:94.6%; background-color:#563d7c;" itemprop="keywords">CSS</span><span class="language-color" style="width:5.4%; background-color:#f1e05a;" itemprop="keywords">JavaScript</span>
+    </a>
+  </div>
+
+
+
+<div class="file-navigation in-mid-page">
+  <a href="/h5bp/html5-boilerplate/find/master"
+        class="js-show-file-finder minibutton empty-icon tooltipped tooltipped-s right"
+        data-pjax
+        data-hotkey="t"
+        aria-label="Quickly jump between files">
+    <span class="octicon octicon-list-unordered"></span>
+  </a>
+    <a href="/h5bp/html5-boilerplate/compare" aria-label="Compare, review, create a pull request" class="minibutton compact primary tooltipped tooltipped-s" aria-label="Compare &amp; review" data-pjax>
+      <span class="octicon octicon-git-compare"></span>
+    </a>
+
+  
+
+<div class="select-menu js-menu-container js-select-menu" >
+  <span class="minibutton select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    data-master-branch="master"
+    data-ref="master"
+    title="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button css-truncate-target">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+      </div> <!-- /.select-menu-header -->
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div><!-- /.select-menu-tabs -->
+      </div><!-- /.select-menu-filters -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item selected">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/h5bp/html5-boilerplate/tree/master"
+                 data-name="master"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="master">master</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/h5bp/html5-boilerplate/tree/rethink-project-structure"
+                 data-name="rethink-project-structure"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="rethink-project-structure">rethink-project-structure</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/h5bp/html5-boilerplate/tree/v4"
+                 data-name="v4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v4">v4</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/h5bp/html5-boilerplate/tree/v4.3.0"
+                 data-name="v4.3.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v4.3.0">v4.3.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/h5bp/html5-boilerplate/tree/v4.2.0"
+                 data-name="v4.2.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v4.2.0">v4.2.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/h5bp/html5-boilerplate/tree/v4.1.0"
+                 data-name="v4.1.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v4.1.0">v4.1.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/h5bp/html5-boilerplate/tree/v4.0.3"
+                 data-name="v4.0.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v4.0.3">v4.0.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/h5bp/html5-boilerplate/tree/v4.0.2"
+                 data-name="v4.0.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v4.0.2">v4.0.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/h5bp/html5-boilerplate/tree/v4.0.1"
+                 data-name="v4.0.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v4.0.1">v4.0.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/h5bp/html5-boilerplate/tree/v4.0.0"
+                 data-name="v4.0.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v4.0.0">v4.0.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/h5bp/html5-boilerplate/tree/v3.0stripped"
+                 data-name="v3.0stripped"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v3.0stripped">v3.0stripped</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/h5bp/html5-boilerplate/tree/v3.0.2stripped"
+                 data-name="v3.0.2stripped"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v3.0.2stripped">v3.0.2stripped</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/h5bp/html5-boilerplate/tree/v3.0.2"
+                 data-name="v3.0.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v3.0.2">v3.0.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/h5bp/html5-boilerplate/tree/v3.0.1stripped"
+                 data-name="v3.0.1stripped"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v3.0.1stripped">v3.0.1stripped</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/h5bp/html5-boilerplate/tree/v3.0.1"
+                 data-name="v3.0.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v3.0.1">v3.0.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/h5bp/html5-boilerplate/tree/v3.0"
+                 data-name="v3.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v3.0">v3.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/h5bp/html5-boilerplate/tree/v2.0stripped"
+                 data-name="v2.0stripped"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v2.0stripped">v2.0stripped</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/h5bp/html5-boilerplate/tree/v2.0"
+                 data-name="v2.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v2.0">v2.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/h5bp/html5-boilerplate/tree/v1.0stripped"
+                 data-name="v1.0stripped"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.0stripped">v1.0stripped</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/h5bp/html5-boilerplate/tree/v1.0rcstripped"
+                 data-name="v1.0rcstripped"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.0rcstripped">v1.0rcstripped</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/h5bp/html5-boilerplate/tree/v1.0rc"
+                 data-name="v1.0rc"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.0rc">v1.0rc</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/h5bp/html5-boilerplate/tree/v1.0"
+                 data-name="v1.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v1.0">v1.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/h5bp/html5-boilerplate/tree/v0.9.5stripped"
+                 data-name="v0.9.5stripped"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.9.5stripped">v0.9.5stripped</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/h5bp/html5-boilerplate/tree/v0.9.5"
+                 data-name="v0.9.5"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.9.5">v0.9.5</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/h5bp/html5-boilerplate/tree/v0.9.1stripped"
+                 data-name="v0.9.1stripped"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.9.1stripped">v0.9.1stripped</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/h5bp/html5-boilerplate/tree/v0.9.1"
+                 data-name="v0.9.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.9.1">v0.9.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/h5bp/html5-boilerplate/tree/v0.9"
+                 data-name="v0.9"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.9">v0.9</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+    </div> <!-- /.select-menu-modal -->
+  </div> <!-- /.select-menu-modal-holder -->
+</div> <!-- /.select-menu -->
+
+
+
+  <div class="breadcrumb"><span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/h5bp/html5-boilerplate" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">html5-boilerplate</span></a></span></span><span class="separator"> / </span><form action="/login?return_to=%2Fh5bp%2Fhtml5-boilerplate" aria-label="Sign in to make or propose changes" class="js-new-blob-form tooltipped tooltipped-e new-file-link" method="post"><span aria-label="Sign in to make or propose changes" class="js-new-blob-submit octicon octicon-plus" data-test-id="create-new-git-file" role="button"></span></form></div>
+</div>
+
+
+
+
+  
+  <div class="commit commit-tease js-details-container" >
+    <p class="commit-title ">
+        <a href="/h5bp/html5-boilerplate/commit/c3d967ab25534507f98bb1b15ac8a70614ac421b" class="message" data-pjax="true" title="Docs: Remove gendered pronoun from `faq.md`
+
+Close: h5bp/html5-boilerplate#1566.">Docs: Remove gendered pronoun from `faq.md`</a>
+        <span class="hidden-text-expander inline"><a href="#" class="js-details-target">…</a></span>
+    </p>
+      <div class="commit-desc"><pre>Close: <a href="https://github.com/h5bp/html5-boilerplate/pull/1566" class="issue-link" title="Remove gendered pronoun. :)">h5bp/html5-boilerplate#1566</a>.</pre></div>
+    <div class="commit-meta">
+      <button aria-label="Copy SHA" class="js-zeroclipboard zeroclipboard-link" data-clipboard-text="c3d967ab25534507f98bb1b15ac8a70614ac421b" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+      <a href="/h5bp/html5-boilerplate/commit/c3d967ab25534507f98bb1b15ac8a70614ac421b" class="sha-block" data-pjax>latest commit <span class="sha">c3d967ab25</span></a>
+
+      <div class="authorship">
+        <img alt="₍˄ุ.͡˳̫.˄ุ₎" class="gravatar" data-user="53273" height="20" src="https://avatars2.githubusercontent.com/u/53273?s=40" width="20" />
+        <span class="author-name"><a href="/jina" rel="contributor">jina</a></span>
+        authored <time class="updated" datetime="2014-07-27T01:33:45-07:00" is="relative-time">July 27, 2014</time>
+
+          <span class="committer"><span class="octicon octicon-arrow-right"></span> <a href="/alrra" rel="contributor">alrra</a>
+            committed <time datetime="2014-07-27T12:41:58+03:00" is="relative-time">July 27, 2014</time>
+          </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="file-wrap">
+    <table class="files" data-pjax>
+
+      
+<tbody class=""
+  data-url="/h5bp/html5-boilerplate/file-list/master"
+  data-deferred-content-error="Failed to load latest commit information.">
+
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/h5bp/html5-boilerplate/tree/master/css" class="js-directory-link" id="c7a628cba22e28eb17b5f5c6ae2a266a-13bdfe8b8d348481e181516a697821c0f63e615b" title="css">css</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/h5bp/html5-boilerplate/commit/f067d5eec55bc643763a9396691e1dc4602941ad" class="message" data-pjax="true" title="Fix file system permissions for `normalize.css`
+
+Close #1537.">Fix file system permissions for `normalize.css`</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-05-03T14:16:29Z" is="time-ago">May 03, 2014</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/h5bp/html5-boilerplate/tree/master/doc" class="js-directory-link" id="9a09b4dfda82e3e665e31092d1c3ec8d-9f60ccca1ce0ad57f808ba88d439a8504b4f8311" title="doc">doc</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/h5bp/html5-boilerplate/commit/c3d967ab25534507f98bb1b15ac8a70614ac421b" class="message" data-pjax="true" title="Docs: Remove gendered pronoun from `faq.md`
+
+Close: h5bp/html5-boilerplate#1566.">Docs: Remove gendered pronoun from `faq.md`</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-07-27T09:41:58Z" is="time-ago">July 27, 2014</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/h5bp/html5-boilerplate/tree/master/img" class="js-directory-link" id="b798abe6e1b1318ee36b0dcb3fb9e4d3-82e3a754b6a0fcb238b03c0e47d05219fbf9cf89" title="img">img</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/h5bp/html5-boilerplate/commit/875df4e9b598b869e52bd081a080419d30913930" class="message" data-pjax="true" title="git ignore files do not need to ignore ignoring themselves
+
+To ensure the dir exists with git, a file is required - but it can be
+completely empty.
+
+Since the git ignore file is already in the repo it is not necessary to
+not-ignore it - it is already tracked.
+
+Though trivial these !.gitignore files are being understood by some to
+mean that they must contain this exact syntax to ensure an empty folder
+exists.">git ignore files do not need to ignore ignoring themselves</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2011-11-23T12:20:56Z" is="time-ago">November 23, 2011</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-directory"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/h5bp/html5-boilerplate/tree/master/js" class="js-directory-link" id="32981a13284db7a021131df49e6cd203-3391b48b4f1844acca7be12cfb4a34cfb50da02c" title="js">js</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/h5bp/html5-boilerplate/commit/8daaa560231ef85e0b5ec8589b84332cbc8c5a20" class="message" data-pjax="true" title="Add `timeline` &amp; `timelineEnd` in `plugins.js`
+
+In Chrome and Opera the console object now includes two new methods:
+
+ * `timeline`
+    https://developer.chrome.com/devtools/docs/console-api#consoletimelinelabel
+
+ * `timelineEnd`
+    https://developer.chrome.com/devtools/docs/console-api#consoletimestamplabel
+
+Close: h5bp/html5-boilerplate#1559.">Add `timeline` &amp; `timelineEnd` in `plugins.js`</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-07-11T19:39:37Z" is="time-ago">July 11, 2014</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/h5bp/html5-boilerplate/blob/master/.editorconfig" class="js-directory-link" id="1e70daafb475c0ce3fef7d2728279182-1b44e4229a4e4622a85e5d9cc403e0f9b16dd7bf" title=".editorconfig">.editorconfig</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/h5bp/html5-boilerplate/commit/a99d8563ddc12cbf941057ee1b8b614fe2c9378c" class="message" data-pjax="true" title="Add `/.editorconfig` file
+
+The addition of the `/.editorconfig` file is made in order to
+encourage and help developers and their teams define and maintain
+consistent coding styles between their different editors and IDEs.
+
+By default, `/.editorconfig` includes some basic properties that
+reflect the coding styles from the files provided by default, but
+users can easily change them to better suit their needs.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Since users need to install a editor/IDE plugin in order for the
+properties from the `/.editorconfig` to be applied, we were reluctant
+to add this file in the past (see: h5bp/html5-boilerplate#1124).
+Nowadays however, the EditorConfig project provides plugins for most
+of the popular editors/IDEs (see: http://editorconfig.org/#download),
+plus, more and more developers are using it.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Ref: http://editorconfig.org/
+
+Close: h5bp/html5-boilerplate#1561
+       h5bp/html5-boilerplate#1564">Add `/.editorconfig` file</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-07-21T20:08:02Z" is="time-ago">July 21, 2014</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/h5bp/html5-boilerplate/blob/master/.gitattributes" class="js-directory-link" id="fc723d30b02a4cca7a534518111c1a66-176a458f94e0ea5272ce67c36bf30b6be9caf623" title=".gitattributes">.gitattributes</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/h5bp/html5-boilerplate/commit/e12fc689a54f497f0368547bdcc967a1635fb5bb" class="message" data-pjax="true" title="Add `newline` at the end of the gitattributes file
+
+Under UNIX-like OSes, a text file consists of a series of lines, each
+of which ends with a `newline` character (`\n`). A file that is not
+empty and does not end with a `newline` is therefore considered not to
+be a text file.
+
+Because of this, utilities that are supposed to operate on text files
+may not cope well with files that don&#39;t end with a `newline` (e.g.: they
+might ignore the text after the last `newline`).
+
+Adding the `newline` character at the end of the file ensures that users
+won&#39;t encounter any odd behavior when using it.
+
+Reference/Source: http://unix.stackexchange.com/a/18789.">Add `newline` at the end of the gitattributes file</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-04-30T22:16:07Z" is="time-ago">May 01, 2014</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/h5bp/html5-boilerplate/blob/master/.gitignore" class="js-directory-link" id="a084b794bc0759e7a6b77810e01874f2-16b2d7d0ae903d9ce1d465fdbbbf4cea599a4eeb" title=".gitignore">.gitignore</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/h5bp/html5-boilerplate/commit/3ce6e98cde37308ce1207ad09970c54a266d0a9a" class="message" data-pjax="true" title="Clean up .gitignore
+
+Remove all the ignores from `.gitignore`. The default boilerplate
+doesn&#39;t generate any project-specific files that need to be ignored. All
+OS and Editor-generated files should be globally ignored rather than
+polluting the local project ignores.
+
+Further information on using git ignore&#39;s appropriately can be found in
+the miscellaneous part of the bundled docs.">Clean up .gitignore</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2012-08-05T11:22:32Z" is="time-ago">August 05, 2012</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/h5bp/html5-boilerplate/blob/master/.htaccess" class="js-directory-link" id="8052c42ab3b8aa06a3f5f788a4ddccc2-d5d87685ec9246de649c131fb47048b5ef690db0" title=".htaccess">.htaccess</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/h5bp/html5-boilerplate/commit/1c5be4d307f25c4b2800a8de675df1742ba6b1f3" class="message" data-pjax="true" title="Update to Apache Server Configs 2.6.0
+
+Changelog: https://github.com/h5bp/server-configs-apache/blob/155b0b68c05b62e38781798bbd5fae2d6fcacf14/CHANGELOG.md#260-july-3-2014.">Update to Apache Server Configs 2.6.0</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-07-03T17:29:57Z" is="time-ago">July 03, 2014</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/h5bp/html5-boilerplate/blob/master/404.html" class="js-directory-link" id="aa8eb2fe477b2d36ecc0f14d6422513f-190accc5b6748e4a11a288b6e67bff93dfa18224" title="404.html">404.html</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/h5bp/html5-boilerplate/commit/e67e9cc7c1b5a395521a6ee43031becc321e605a" class="message" data-pjax="true" title="Use `&lt;!doctype html&gt;` instead of `&lt;!DOCTYPE html&gt;`
+
+Return back to the lowercase doctype in order to be more consistent
+with the lowercase of the html tags.
+
+References:
+
+  * h5bp/html5-boilerplate#1522
+  * http://www.whatwg.org/specs/web-apps/current-work/multipage/syntax.html#the-doctype
+
+Close h5bp/html5-boilerplate#1522.">Use `&lt;!doctype html&gt;` instead of `&lt;!DOCTYPE html&gt;`</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-04-02T09:32:49Z" is="time-ago">April 02, 2014</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/h5bp/html5-boilerplate/blob/master/CHANGELOG.md" class="js-directory-link" id="4ac32a78649ca5bdd8e0ba38b7006a1e-cbb1e2fae4041643ecacad5f3e0891026e7e05f2" title="CHANGELOG.md">CHANGELOG.md</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/h5bp/html5-boilerplate/commit/a99d8563ddc12cbf941057ee1b8b614fe2c9378c" class="message" data-pjax="true" title="Add `/.editorconfig` file
+
+The addition of the `/.editorconfig` file is made in order to
+encourage and help developers and their teams define and maintain
+consistent coding styles between their different editors and IDEs.
+
+By default, `/.editorconfig` includes some basic properties that
+reflect the coding styles from the files provided by default, but
+users can easily change them to better suit their needs.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Since users need to install a editor/IDE plugin in order for the
+properties from the `/.editorconfig` to be applied, we were reluctant
+to add this file in the past (see: h5bp/html5-boilerplate#1124).
+Nowadays however, the EditorConfig project provides plugins for most
+of the popular editors/IDEs (see: http://editorconfig.org/#download),
+plus, more and more developers are using it.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Ref: http://editorconfig.org/
+
+Close: h5bp/html5-boilerplate#1561
+       h5bp/html5-boilerplate#1564">Add `/.editorconfig` file</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-07-21T20:08:02Z" is="time-ago">July 21, 2014</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/h5bp/html5-boilerplate/blob/master/CONTRIBUTING.md" class="js-directory-link" id="6a3371457528722a734f3c51d9238c13-aff4d6a27e85c5ad436603753872023b5f7f2f59" title="CONTRIBUTING.md">CONTRIBUTING.md</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/h5bp/html5-boilerplate/commit/5e0b0d642b6d5f633714a2929a5a35d26330bfd3" class="message" data-pjax="true" title="Update links">Update links</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-06-21T00:18:30Z" is="time-ago">June 21, 2014</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/h5bp/html5-boilerplate/blob/master/LICENSE.md" class="js-directory-link" id="37854d19817c792316d481f5beb93cc7-294e91d808263f2f5f935aed22e3cbce9faf8771" title="LICENSE.md">LICENSE.md</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/h5bp/html5-boilerplate/commit/f23340ed9b8d2d59b611d38aea7ee9569f94a3b4" class="message" data-pjax="true" title="Add MIT license
+
+Provide a proper, highly permission license, recognized by the OSI, to
+remove any potential for ambiguity. Addresses concerns around the
+inability to elect to place work in the Public Domain.
+
+Fix gh-1139">Add MIT license</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2012-08-08T22:56:10Z" is="time-ago">August 08, 2012</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/h5bp/html5-boilerplate/blob/master/README.md" class="js-directory-link" id="04c6e90faac2675aa89e2176d2eec7d8-9a4cd22156b041158463a593187bd1cc4b1a8d41" title="README.md">README.md</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/h5bp/html5-boilerplate/commit/ec49630374cf567fed4cee3312a5d0673da4999d" class="message" data-pjax="true" title="README.md: Add link to the list of releases
+
+Close #1480.">README.md: Add link to the list of releases</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2013-12-11T22:01:33Z" is="time-ago">December 12, 2013</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/h5bp/html5-boilerplate/blob/master/apple-touch-icon-precomposed.png" class="js-directory-link" id="a23f9355401e092c21aa189deea58100-bee3e36990af10c2d29839145f2e27f50b7ef25f" title="apple-touch-icon-precomposed.png">apple-touch-icon-precomposed.png</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/h5bp/html5-boilerplate/commit/f5d58728e19102cbd2be07a4436e4a67e01c6722" class="message" data-pjax="true" title="Further optimize `apple-touch-icon-precomposed`
+
+  before:         1226 B
+  after:          1076 B
+  ──────────────────────
+  reduction:      -150 B [-12.23%]">Further optimize `apple-touch-icon-precomposed`</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-01-27T20:36:58Z" is="time-ago">January 27, 2014</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/h5bp/html5-boilerplate/blob/master/browserconfig.xml" class="js-directory-link" id="23528cfa6d9a6488d593077c6c845ac7-46de5d3cbea1f03b383877463716c949d36cf243" title="browserconfig.xml">browserconfig.xml</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/h5bp/html5-boilerplate/commit/80530d6b4639980f3ab0858123edbd730745fcde" class="message" data-pjax="true" title="Add `/browserconfig.xml` and tile images
+
+By default, starting with IE11 on Windows 8.1, IE will request the
+`/browserconfig.xml` file when a user clicks/touches the `pin site`
+button (same as Safari for iOS does with the `apple-touch-icons` when
+the user touches the `share` button).
+
+Adding the `/browserconfig.xml` file and the tile images:
+
+* reduces the number of 404s, especially as IE11 on Windows 8.1 gets
+  more market share
+* provides a starting point for dealing with Windows tiles
+* reminds users about the tile images, so that their website doesn&#39;t
+  end up having as a tile the default IE11 logo, or (if the favicon
+  is 32×32px or bigger and not `.ico`) the website&#39;s favicon
+* unlike using `&lt;meta&gt;` tags, offers a way that doesn&#39;t increase the
+  page size
+
+Only two images are provided since:
+
+* `tile.png` (558×558px) - can be used for the `Small`, `Medium`,
+  and `Large` tiles, being automatically resized where necessary
+* `tile-wide.png` (558×270px) - can be used for the `Wide` tile
+  as, in this case, resizing the 558×558px image would just end up
+  looking weird
+
+The two images are 558×558px and 558×270px because those are the
+recommended image sizes in order for the tiles to look good on a wide
+range of devices.
+
+For more in depth information, please refer to the MSDN documentation:
+
+ * http://msdn.microsoft.com/en-us/library/ie/dn455106.aspx
+ * http://msdn.microsoft.com/en-us/library/ie/dn255024.aspx
+
+Close #1481.">Add `/browserconfig.xml` and tile images</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-02-18T22:12:39Z" is="time-ago">February 19, 2014</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/h5bp/html5-boilerplate/blob/master/crossdomain.xml" class="js-directory-link" id="8f512e571161ed0633bd0628fda07588-29a035d7fc37681912d05d3a3da5ae8967d228b5" title="crossdomain.xml">crossdomain.xml</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/h5bp/html5-boilerplate/commit/889e377b2d20eaaa690785d7e47daf50aa46b972" class="message" data-pjax="true" title="Remove superfluous code comments
+
+Reduce the perceived complexity and verbosity of certain files by
+stripping unneccessary inline comments.
+
+Relevant documentation may end up in a `doc/` directory such that any
+download has an accurate and matching code documentation bundle.
+
+Ref gh-1048">Remove superfluous code comments</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2012-07-29T13:48:14Z" is="time-ago">July 29, 2012</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/h5bp/html5-boilerplate/blob/master/favicon.ico" class="js-directory-link" id="8af3a74ede48e250ceb935c026242483-be74abd69ad6a32de7375df13cab9354798e328f" title="favicon.ico">favicon.ico</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/h5bp/html5-boilerplate/commit/21702c4198124647d541be635268b16ef7d33c72" class="message" data-pjax="true" title="HiDPI (32x32px) favicon.ico
+
+32x32-only version. Tested in IE6+, Safari 4+, and the latest Chrome,
+Firefox, and Opera.">HiDPI (32x32px) favicon.ico</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2013-01-10T01:12:19Z" is="time-ago">January 09, 2013</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/h5bp/html5-boilerplate/blob/master/humans.txt" class="js-directory-link" id="81c8f0e9ba56e8b4ea56209cb03f76b5-8d2330fdb28aa243b5c4b09f4a2a2e9b00a79dd3" title="humans.txt">humans.txt</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/h5bp/html5-boilerplate/commit/d2b86f78a41b86ff561f069934ffc83156ee0476" class="message" data-pjax="true" title="Mention `Apache Server Configs` in `humans.txt`
+
+The Apache server configs have evolved into their own separate
+project, and thus, they are now considered an external component.">Mention `Apache Server Configs` in `humans.txt`</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-06-24T18:02:44Z" is="time-ago">June 24, 2014</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/h5bp/html5-boilerplate/blob/master/index.html" class="js-directory-link" id="eacf331f0ffc35d4b482f1d15a887d3b-900845c1084c2359565979d5cffcee98f7eb75ad" title="index.html">index.html</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/h5bp/html5-boilerplate/commit/4fca586fae58bd4ee0d5f74fbd1705f419ce4f6d" class="message" data-pjax="true" title="Add `auto` to the GA tracker create method
+
+The Google Universal Analytics now supports automatic cookie domain
+configuration simply by adding `auto` to the analytics tracker create
+method: `ga(&#39;create&#39;, &#39;UA-XXXX-Y&#39;, &#39;auto&#39;);`.
+
+From https://developers.google.com/analytics/devguides/collection/analyticsjs/domains#auto:
+
+  &quot;Automatic Cookie Domain Configuration simplifies cross domain
+   tracking implementations by automatically writing cookies to the
+   highest level domain possible when the auto parameter is used.
+   When used on the domain www.example.co.uk, it will try to write
+   cookies in the following order:
+
+     1. co.uk
+     2. example.co.uk
+     3. www.example.co.uk
+
+   Analytics.js will fail to write a cookie on co.uk but will succeed
+   on example.co.uk. Since a cookie was succesfully written on a higher
+   level domain, www.example.co.uk will be skipped&quot;
+
+So, when this parameter is omitted (as it was prior to this commit),
+Google Universal Analytics will default to using `location.hostname`,
+which will include the subdomain, preventing websites with multiple
+subdomains from being able to automatically track unique users across
+those subdomains.
+
+Note: The `auto` parameter is now officially part of the recommended
+Google Universal Analytics snippet.
+https://developers.google.com/analytics/devguides/collection/analyticsjs/
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Ref: https://developers.google.com/analytics/devguides/collection/analyticsjs/domains#auto
+Close: h5bp/html5-boilerplate#1562.">Add `auto` to the GA tracker create method</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-07-17T12:20:12Z" is="time-ago">July 17, 2014</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/h5bp/html5-boilerplate/blob/master/robots.txt" class="js-directory-link" id="aa2646a667ee1cd83235786dccef4a26-d0e5f1be6bb0124953f05108e71171eb531e46f5" title="robots.txt">robots.txt</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/h5bp/html5-boilerplate/commit/4e5f438e1ea0d7e39179ba5cf799a8d326ba7cc3" class="message" data-pjax="true" title="Add `Disallow:` to `robots.txt`
+
+The addition of `Disallow:` is made in order to be compliant with:
+
+  * the `robots.txt` specification (http://www.robotstxt.org/), which
+    specifies that: &quot;At least one Disallow field needs to be present
+    in a record&quot;
+  * what is suggested in the documentation of most of the major search
+    engines, e.g.:
+
+      - Baidu:  http://www.baidu.com/search/robots_english.html
+      - Google: https://developers.google.com/webmasters/control-crawl-index/docs/getting_started
+                http://www.youtube.com/watch?v=P7GY1fE5JQQ
+      - Yandex: help.yandex.com/webmaster/controlling-robot/robots-txt.xml
+
+Besides the addition specified above, this commit also:
+
+  * adds a comment making it clear to everyone that the directives from
+    the `robots.txt` file allow all content on the site to be crawled
+  * updates the URL to `www.robotstxt.org`, as `robotstxt.org` doesn&#39;t
+    quite work:
+
+      curl -LsS robotstxt.org
+      curl: (7) Failed connect to robotstxt.org:80; Operation timed out
+
+Close #1487.">Add `Disallow:` to `robots.txt`</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-01-15T20:14:06Z" is="time-ago">January 15, 2014</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/h5bp/html5-boilerplate/blob/master/tile-wide.png" class="js-directory-link" id="830886acecd37c263297fd6e1ed597f2-aaebe90e22006bcb58ee45cba15305ee8d1bb97d" title="tile-wide.png">tile-wide.png</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/h5bp/html5-boilerplate/commit/dcc5958a39264a52231c97c319943df8aab2d955" class="message" data-pjax="true" title="Further optimize `tile` images
+
+ * tile.png
+
+     before:        13767 B
+     after:         13743 B
+     ──────────────────────
+     reduction:        24 B [0.17%]
+
+ * tile-wide.png
+
+     before:         6781 B
+     after:          6774 B
+     ──────────────────────
+     reduction:         7 B [0.10%]">Further optimize `tile` images</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-04-27T08:53:31Z" is="time-ago">April 27, 2014</time></span>
+      </td>
+    </tr>
+    <tr>
+      <td class="icon">
+        <span class="octicon octicon-file-text"></span>
+        <img alt="" class="spinner" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+      </td>
+      <td class="content">
+        <span class="css-truncate css-truncate-target"><a href="/h5bp/html5-boilerplate/blob/master/tile.png" class="js-directory-link" id="79af871c098a8fdd3c261c54034fe8ba-5f9454c650ac30f5b0d581ee166fd3e4fbb337ac" title="tile.png">tile.png</a></span>
+      </td>
+      <td class="message">
+        <span class="css-truncate css-truncate-target ">
+          <a href="/h5bp/html5-boilerplate/commit/dcc5958a39264a52231c97c319943df8aab2d955" class="message" data-pjax="true" title="Further optimize `tile` images
+
+ * tile.png
+
+     before:        13767 B
+     after:         13743 B
+     ──────────────────────
+     reduction:        24 B [0.17%]
+
+ * tile-wide.png
+
+     before:         6781 B
+     after:          6774 B
+     ──────────────────────
+     reduction:         7 B [0.10%]">Further optimize `tile` images</a>
+        </span>
+      </td>
+      <td class="age">
+        <span class="css-truncate css-truncate-target"><time datetime="2014-04-27T08:53:31Z" is="time-ago">April 27, 2014</time></span>
+      </td>
+    </tr>
+</tbody>
+
+    </table>
+  </div>
+
+
+  <div id="readme" class="clearfix announce instapaper_body md">
+    <span class="name">
+      <span class="octicon octicon-book"></span>
+      README.md
+    </span>
+
+    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1>
+<a name="user-content-html5-boilerplate" class="anchor" href="#html5-boilerplate" aria-hidden="true"><span class="octicon octicon-link"></span></a><a href="http://html5boilerplate.com">HTML5 Boilerplate</a>
+</h1>
+
+<p>HTML5 Boilerplate is a professional front-end template for building fast,
+robust, and adaptable web apps or sites.</p>
+
+<p>This project is the product of many years of iterative development and combined
+community knowledge. It does not impose a specific development philosophy or
+framework, so you're free to architect your code in the way that you want.</p>
+
+<ul class="task-list">
+<li>Source: <a href="https://github.com/h5bp/html5-boilerplate">https://github.com/h5bp/html5-boilerplate</a>
+</li>
+<li>Homepage: <a href="http://html5boilerplate.com">http://html5boilerplate.com</a>
+</li>
+<li>Twitter: <a href="http://twitter.com/h5bp">@h5bp</a>
+</li>
+</ul><h2>
+<a name="user-content-quick-start" class="anchor" href="#quick-start" aria-hidden="true"><span class="octicon octicon-link"></span></a>Quick start</h2>
+
+<p>Choose one of the following options:</p>
+
+<ol class="task-list">
+<li>Download the latest stable release from
+<a href="http://html5boilerplate.com/">html5boilerplate.com</a> or a custom build from
+<a href="http://www.initializr.com">Initializr</a>.</li>
+<li>Clone the git repo — <code>git clone
+https://github.com/h5bp/html5-boilerplate.git</code> - and checkout the <a href="https://github.com/h5bp/html5-boilerplate/releases">tagged
+release</a> you'd like to
+use.</li>
+</ol><h2>
+<a name="user-content-features" class="anchor" href="#features" aria-hidden="true"><span class="octicon octicon-link"></span></a>Features</h2>
+
+<ul class="task-list">
+<li>HTML5 ready. Use the new elements with confidence.</li>
+<li>Cross-browser compatible (Chrome, Firefox, IE8+, Opera, Safari).</li>
+<li>Designed with progressive enhancement in mind.</li>
+<li>Includes <a href="http://necolas.github.com/normalize.css/">Normalize.css</a> for CSS
+normalizations and common bug fixes.</li>
+<li>The latest <a href="http://jquery.com/">jQuery</a> via CDN, with a local fallback.</li>
+<li>The latest <a href="http://modernizr.com/">Modernizr</a> build for feature detection.</li>
+<li>Placeholder CSS Media Queries.</li>
+<li>Useful CSS helpers.</li>
+<li>Default print CSS, performance optimized.</li>
+<li>Protection against any stray <code>console.log</code> causing JavaScript errors in
+older browsers.</li>
+<li>An optimized Google Analytics snippet.</li>
+<li>Apache server caching, compression, and other configuration defaults for
+Grade-A performance.</li>
+<li>Cross-domain Ajax and Flash.</li>
+<li>"Delete-key friendly." Easy to strip out parts you don't need.</li>
+<li>Extensive inline and accompanying documentation.</li>
+</ul><p><a href="https://github.com/h5bp/html5-boilerplate/tree/v4">HTML5 Boilerplate v4 provides legacy browser
+support</a> (IE 6+, Firefox
+3.6+, Safari 4+), but is no longer actively developed.</p>
+
+<h2>
+<a name="user-content-documentation" class="anchor" href="#documentation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Documentation</h2>
+
+<p>Take a look at the <a href="/h5bp/html5-boilerplate/blob/master/doc/TOC.md">documentation table of contents</a>. This
+documentation is bundled with the project, which makes it readily available for
+offline reading and provides a useful starting point for any documentation you
+want to write about your project.</p>
+
+<h2>
+<a name="user-content-contributing" class="anchor" href="#contributing" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributing</h2>
+
+<p>Anyone and everyone is welcome to <a href="/h5bp/html5-boilerplate/blob/master/CONTRIBUTING.md">contribute</a>. Hundreds of
+developers have helped make the HTML5 Boilerplate what it is today.</p></article>
+  </div>
+
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer">
+    <ul class="site-footer-links right">
+      <li><a href="https://status.github.com/">Status</a></li>
+      <li><a href="http://developer.github.com">API</a></li>
+      <li><a href="http://training.github.com">Training</a></li>
+      <li><a href="http://shop.github.com">Shop</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/about">About</a></li>
+
+    </ul>
+
+    <a href="/" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+    </a>
+
+    <ul class="site-footer-links">
+      <li>&copy; 2014 <span title="0.03896s from github-fe123-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="/site/terms">Terms</a></li>
+        <li><a href="/site/privacy">Privacy</a></li>
+        <li><a href="/security">Security</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div><!-- /.site-footer -->
+</div><!-- /.container -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="fullscreen-contents js-fullscreen-contents" placeholder="" data-suggester="fullscreen_suggester"></textarea>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped tooltipped-w"
+      aria-label="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-x close js-ajax-error-dismiss" aria-label="Dismiss error"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-caa5b172e276e6cfb9657534025e7be159dc931e.js" type="text/javascript"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-36110357c9cfdfc05c275f39c29cb12260b5d77e.js" type="text/javascript"></script>
+      
+      
+        <script async src="https://www.google-analytics.com/analytics.js"></script>
+  </body>
+</html>
+

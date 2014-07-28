@@ -1,0 +1,19 @@
+{
+    "name": "Test-Repo",
+    "description": "This is my test repo for practicing git",
+    "version": "1.0.0"
+}
+{
+  "name": "html5-boilerplate",
+  "_cacheHeaders": {
+    "ETag": "\"8edf201d0250ffa83b72d01a4cc78c99\"",
+    "Content-Length": "76986",
+    "Content-Type": "text/html; charset=utf-8"
+  },
+  "_release": "e-tag:8edf201d0",
+  "main": "index",
+  "_source": "https://github.com/h5bp/html5-boilerplate",
+  "_target": "*",
+  "_originalSource": "https://github.com/h5bp/html5-boilerplate",
+  "_direct": true
+}
